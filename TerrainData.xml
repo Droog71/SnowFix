@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTerrainDataEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">	
+    <TerrainDataEntry>
+		<CubeType>21</CubeType>
+		<Key>Snow</Key>
+        <IsOverride>true</IsOverride>
+		<Name>Snow</Name>
+		<ResearchValue>1</ResearchValue>
+		<LayerType>PrimaryTerrain</LayerType>
+		<TopTexture>25</TopTexture>
+		<SideTexture>26</SideTexture>
+		<BottomTexture>12</BottomTexture>
+		<GUITexture>25</GUITexture>
+		<isSolid>true</isSolid>
+		<isTransparent>false</isTransparent>
+		<isHollow>false</isHollow>
+		<isGlass>false</isGlass>
+		<isPassable>false</isPassable>
+		<hasObject>false</hasObject>
+        <isColorised>false</isColorised>
+		<hasEntity>false</hasEntity>
+		<AudioWalkType>Gravel</AudioWalkType><!--Sounds like snow!-->
+		<AudioBuildType>Dirt</AudioBuildType>
+		<AudioDestroyType>None</AudioDestroyType>
+		<isGarbage>true</isGarbage>
+		<tags>
+			<tag>Voxel</tag>
+			<tag>Outdoor</tag>
+		</tags>
+	</TerrainDataEntry>
+</ArrayOfTerrainDataEntry>
