@@ -7,12 +7,6 @@ public class SnowFix : FortressCraftMod
     private PlayerInventory playerInventory;
     Translator translator = new Translator();
 
-    public override ModRegistrationData Register()
-    {
-        ModRegistrationData modRegistrationData = new ModRegistrationData();
-        return modRegistrationData;
-    }
-
     public void Update()
     {
         if (playerInventory == null)
