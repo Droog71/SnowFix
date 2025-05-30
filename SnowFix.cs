@@ -2,9 +2,10 @@
 
 public class SnowFix : FortressCraftMod
 {
-    private PlayerInventory playerInventory;
-    private IEnumerator inventoryCoroutine;
     private bool inventoryCoroutineBusy;
+    private IEnumerator inventoryCoroutine;
+    private PlayerInventory playerInventory;
+    Translator translator = new Translator();
 
     public override ModRegistrationData Register()
     {
@@ -31,7 +32,7 @@ public class SnowFix : FortressCraftMod
     private IEnumerator ReplaceItems()
     {
         inventoryCoroutineBusy = true;
-        Translator translator = new Translator();
+
         ItemBase[,] items = playerInventory.maItemInventory;
 
         foreach (ItemBase thisItem in items)
